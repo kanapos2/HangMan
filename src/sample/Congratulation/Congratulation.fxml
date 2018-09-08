@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="334.0" prefWidth="386.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Congratulation.Congratulation">
+   <children>
+      <Text fill="RED" layoutX="9.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="congratulation">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Text>
+      <Text fill="#00ee10" layoutX="101.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You Win !!!" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="newGame" defaultButton="true" layoutX="151.0" layoutY="223.0" mnemonicParsing="false" onAction="#Newgame" text="New game" />
+   </children>
+</AnchorPane>
